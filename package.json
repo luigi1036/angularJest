@@ -1,0 +1,45 @@
+{
+  "name": "book-list-app",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "test": "jest",
+    "test-watc": "jest --watchAll",
+    "test-coverage": "jest --coverage",
+    "build": "ng build",
+    "tbuild": "ng test --no-watch && ng build",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~11.1.2",
+    "@angular/common": "~11.1.2",
+    "@angular/compiler": "~11.1.2",
+    "@angular/core": "~11.1.2",
+    "@angular/forms": "~11.1.2",
+    "@angular/platform-browser": "~11.1.2",
+    "@angular/platform-browser-dynamic": "~11.1.2",
+    "@angular/router": "~11.1.2",
+    "@briebug/jest-schematic": "^3.1.0",
+    "rxjs": "~6.5.4",
+    "sweetalert2": "^10.14.0",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-builders/jest": "latest",
+    "@angular-devkit/build-angular": "~0.1101.4",
+    "@angular/cli": "~11.1.4",
+    "@angular/compiler-cli": "~11.1.2",
+    "@types/jest": "latest",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^6.0.0",
+    "jest": "latest",
+    "protractor": "~7.0.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.0.5"
+  }
+}
